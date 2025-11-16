@@ -15,26 +15,24 @@ Reply assistance template logic (optional)
 **Project Overview**
 
 Users post many types of comments online—positive, negative, abusive, supportive, emotional, or spam.
+
 This tool automatically:
-Cleans and preprocesses user comments
-
-Predicts the underlying intent/emotion
-
-Categorizes them into meaningful groups
-
-(Optional) Suggests reply templates
+1. Cleans and preprocesses user comments
+2. Predicts the underlying intent/emotion
+3. Categorizes them into meaningful groups
+4. Suggests reply templates
 
 **Target Categories**
 
-Your classifier detects the following:
-Praise – e.g., “Amazing work! Loved this.”
-Support – “Keep going, you’re doing great!”
-Constructive Criticism – “Good idea, but the sound quality could improve.”
-Hate/Abuse – “This is trash, stop making videos.”
-Threat – “I’ll report you if you do this again.”
-Emotional – “This reminded me of my childhood.”
-Irrelevant/Spam – “Follow me for free followers!”
-Question/Suggestion (Optional) – “Can you make a video on X?”
+1. Your classifier detects the following:
+2. Praise – e.g., “Amazing work! Loved this.”
+3. Support – “Keep going, you’re doing great!”
+4. Constructive Criticism – “Good idea, but the sound quality could improve.”
+5. Hate/Abuse – “This is trash, stop making videos.”
+6. Threat – “I’ll report you if you do this again.”
+7. Emotional – “This reminded me of my childhood.”
+8. Irrelevant/Spam – “Follow me for free followers!”
+9. Question/Suggestion (Optional) – “Can you make a video on X?”
 
 **How to Run the Notebook on Google Colab
 Follow these steps to run the .ipynb file without errors:**
@@ -43,11 +41,14 @@ Go to: https://colab.research.google.com/
 2. Upload the Notebook
 Select comment_catergorization_assignment.ipynb
 3. Upload Dataset to Colab
-You can either upload the dataset on your google drive and access it from there using the 4th cell in the notebook or run 5th cell and upload it there firectly from your computer. But first run the cells before running any cell. 
+You can either upload the dataset on your google drive and access it from there using the 4th cell in the notebook or run 5th cell and upload it there firectly from your computer. But first run the cells before running any cell.
+
 **NOTE:**
+
 RUN ALL CELLS SEQUENTIALLY TO AVOID ANY ERROR.
 
 After you have run all the cells. You will get a Gradio UI where you to put your comment.
+
 **EXAMPLES:**
 1. I love the animation but the audio needs work. *-constructive criticism*
 2. Good idea, but the sound quality could improve. *-constructive criticism*
