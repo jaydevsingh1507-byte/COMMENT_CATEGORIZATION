@@ -13,6 +13,7 @@ Google Colab-friendly execution
 Reply assistance template logic (optional)
 
 **Project Overview**
+
 Users post many types of comments online—positive, negative, abusive, supportive, emotional, or spam.
 This tool automatically:
 ✔ Cleans and preprocesses user comments
@@ -21,6 +22,7 @@ This tool automatically:
 ✔ (Optional) Suggests reply templates
 
 **Target Categories**
+
 Your classifier detects the following:
 Praise – e.g., “Amazing work! Loved this.”
 Support – “Keep going, you’re doing great!”
