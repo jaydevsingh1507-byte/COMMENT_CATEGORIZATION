@@ -42,6 +42,7 @@ Go to: https://colab.research.google.com/
 Select comment_catergorization_assignment.ipynb
 3. Upload Dataset to Colab
 You can either upload the dataset on your google drive and access it from there using the 4th cell in the notebook or run 5th cell and upload it there firectly from your computer. But first run the cells before running any cell.
+4. Run all the cells one by one.
 
 **NOTE:**
 
