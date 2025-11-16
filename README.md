@@ -16,10 +16,13 @@ Reply assistance template logic (optional)
 
 Users post many types of comments online—positive, negative, abusive, supportive, emotional, or spam.
 This tool automatically:
-✔ Cleans and preprocesses user comments
-✔ Predicts the underlying intent/emotion
-✔ Categorizes them into meaningful groups
-✔ (Optional) Suggests reply templates
+Cleans and preprocesses user comments
+
+Predicts the underlying intent/emotion
+
+Categorizes them into meaningful groups
+
+(Optional) Suggests reply templates
 
 **Target Categories**
 
