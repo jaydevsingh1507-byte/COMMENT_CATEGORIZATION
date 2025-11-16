@@ -1,6 +1,5 @@
 **Comment Categorization & Reply Assistant Tool**
-This project is an NLP-based mini-application that analyzes user comments (from social media posts, product announcements, etc.) and classifies them into meaningful emotion/intent categories such as praise, support, constructive criticism, hate/abuse, threat, emotional, spam/irrelevant, and questions/suggestions.
-The tool helps brands and content creators efficiently sort feedback and generate appropriate responses.
+This project is an NLP-based mini-application that analyzes user comments (from social media posts, product announcements, etc.) and classifies them into meaningful emotion/intent categories such as praise, support, constructive criticism, hate/abuse, threat, emotional, spam/irrelevant, and questions/suggestions. The tool helps brands and content creators efficiently sort feedback and generate appropriate responses.
 **The repository contains:**
 A labeled dataset (combined_dataset.csv)
 A notebook (comment_catergorization_assignment.ipynb) that trains and evaluates an ML/NLP classification model
